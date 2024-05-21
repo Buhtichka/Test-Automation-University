@@ -4,7 +4,6 @@ package chapter6;
 *area of two rooms in a house.
  */
 
-import static com.sun.tools.classfile.Module_attribute.RequiresEntry.length;
 
 public class HomeAreaCalculator {
     public static void main(String[] args) {
@@ -23,7 +22,7 @@ public class HomeAreaCalculator {
          * * RECTANGLE 2
          ***********/
         //Create instance of Rectangle class
-        Rectangle room2 = new Rectangle(length:30, width:75);
+        Rectangle room2 = new Rectangle(30, 75);
         double areaOfRoom2 = room2.calculateArea();
 
         double totalArea = areaOfRoom1 + areaOfRoom2;
