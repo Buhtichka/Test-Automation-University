@@ -4,6 +4,13 @@ public class Person {
 
     private String name;
     private int age;
+    private String gender;
+
+
+    public Person(String name){
+        System.out.println("In Person 2nd constructor. Name is set");
+
+    }
 
     public String getName() {
         return name;
@@ -29,7 +36,7 @@ public class Person {
         this.gender = gender;
     }
 
-    private String gender;
+
 
 
 
